@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\tolu00\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\tolu00\\AppData\\Roaming\\npm-cache\\arrz\\0.0.2\\package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package.tgz
+12 verbose folder .
+13 info prepublish arrz@0.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\tolu00\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 5b5238df-npm-cache-arrz-0-0-2-package-tgz tar://C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package.tgz
+17 verbose lock tar://C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package.tgz C:\Users\tolu00\AppData\Roaming\npm-cache\5b5238df-npm-cache-arrz-0-0-2-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5b5238df-npm-cache-arrz-0-0-2-package-tgz tar://C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package.tgz
+21 silly lockFile 5b5238df-npm-cache-arrz-0-0-2-package-tgz tar://C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package.tgz
+22 silly lockFile 3c106000-ing-npm-cache-arrz-0-0-2-package C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package
+23 verbose lock C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package C:\Users\tolu00\AppData\Roaming\npm-cache\3c106000-ing-npm-cache-arrz-0-0-2-package.lock
+24 silly lockFile 3c106000-ing-npm-cache-arrz-0-0-2-package C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package
+25 silly lockFile 3c106000-ing-npm-cache-arrz-0-0-2-package C:\Users\tolu00\AppData\Roaming\npm-cache\arrz\0.0.2\package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'arrz',
+28 silly publish   version: '0.0.2',
+28 silly publish   description: 'Slim library that extends Array.prototype with some handy functions',
+28 silly publish   main: 'arrz.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository: { type: 'git', url: 'https://github.com/mchound/arrz.git' },
+28 silly publish   author: '',
+28 silly publish   license: 'Apache License 2.0',
+28 silly publish   bugs: { url: 'https://github.com/mchound/arrz/issues' },
+28 silly publish   homepage: 'https://github.com/mchound/arrz',
+28 silly publish   gitHead: '4c6f6e80c75b8f5e12457c2a9892dc436a476cb5',
+28 silly publish   readme: 'ERROR: No README data found!',
+28 silly publish   _id: 'arrz@0.0.2',
+28 silly publish   _shasum: 'b8dbd17bdd2804c42235763e8c3a380a4ab3b95e',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Windows_NT 6.2.9200
+31 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+32 error cwd C:\tolu00\Playground\arrz
+33 error node -v v0.10.33
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]
