@@ -1,6 +1,6 @@
 {
   "name": "arrz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Slim library that extends Array.prototype with some handy functions",
   "main": "arrz.js",
   "scripts": {

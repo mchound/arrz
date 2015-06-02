@@ -19,6 +19,8 @@ module.exports = (function(){
 	Array.prototype.intersect = function(array, on){
 		var arr = this;
 		
+		if(!array) return [];
+
 		return arr.filter(function(outer){
 
 			if(!!on){
@@ -36,6 +38,8 @@ module.exports = (function(){
 
 	Array.prototype.outersect = function(array, on){
 		var arr = this;
+
+		if(!array) return this;
 
 		return arr.filter(function(outer){
 
