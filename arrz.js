@@ -14,7 +14,7 @@ module.exports = (function(){
 
 		return false;
 
-	}
+	};
 
 	Array.prototype.intersect = function(array, on){
 		var arr = this;
@@ -34,7 +34,7 @@ module.exports = (function(){
 
 		});
 
-	}
+	};
 
 	Array.prototype.outersect = function(array, on){
 		var arr = this;
@@ -54,6 +54,19 @@ module.exports = (function(){
 
 		});
 
-	}
+	};
+
+	Array.prototype.first = function(predicate){
+
+		if(!!predicate){
+			for(var i = 0; i < this.length; i++){
+				if(predicate.call(this, this[i], i)) return this[i];
+			}
+		}
+		else {
+			return this.length > 0 ? this[0] : undefined;
+		}
+
+	};
 
 })();
